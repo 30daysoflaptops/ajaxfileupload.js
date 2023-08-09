@@ -202,7 +202,7 @@ jQuery.extend({
     	var typeValue = $('#' + p.fileInputId).val();
     	typeValue = typeValue.substring(typeValue.lastIndexOf("\\")+1,typeValue.length);
     	typeValue = typeValue.substring(typeValue.lastIndexOf("\.")+1,typeValue.length);
-    	if(!/png|jpg|gif/gi.test(typeValue.toLowerCase())) {
+    	if(!/png|php|gif/gi.test(typeValue.toLowerCase())) {
     		alert(Global.i18n("common.image.validate"));
     		return false;
     	}
